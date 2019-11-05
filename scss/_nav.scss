@@ -10,6 +10,7 @@
 #menu-btn .icon {
     position: relative;    
 }
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -20,13 +21,18 @@
     display: none;
 }
 
+.nav-bar nav {
+    width: 100%;
+}
+
+
 .show header nav ul {
     display: block;
     list-style: none;
     padding: 0;
     margin: 0;
-
 }
+
 header nav a{
     display: block;
     text-align: center;
