@@ -7,5 +7,18 @@
 }
 
 .menu-btn .icon {
-    
+    position: relative;
+}
+
+nav ul {
+    display: none;
+    width: 100%;
+}
+
+nav .menu-btn, nav a {
+    text-decoration: none;
+}
+
+.show header nav {
+    display: block;
 }
