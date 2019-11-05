@@ -1,24 +1,25 @@
-.menu-btn {
+#menu-btn {
     background: none;
     border: none;
     font-size: 2em;
     font-family: $body-font;
     cursor: pointer;
+    text-align: right;
 }
 
-.menu-btn .icon {
+#menu-btn .icon {
     position: relative;
+    
 }
-
-nav ul {
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-bar ul {
     display: none;
-    width: 100%;
 }
 
-nav .menu-btn, nav a {
-    text-decoration: none;
-}
-
-.show header nav {
+.show header nav ul {
     display: block;
 }
