@@ -9,7 +9,7 @@
 // Header Styles (both h1 and h3)
 h1 {
   text-align: center;
-  color: #0a1e22;
+  color: $text-color;
   line-height: 1em;
 }
 
@@ -17,7 +17,18 @@ h3 {
     font-family: $body-font;
     line-height: 0em;
     text-align: center;
-    color: #0a1e22;
+    color: $text-color;
 }
 
 // Button Styles
+.banner-home button a {
+  text-decoration: none;
+  font-family: $body-font;
+  color: $text-color;
+}
+
+.banner-home button {
+  border: none;
+  background-color: #fff5d5;
+  
+}
