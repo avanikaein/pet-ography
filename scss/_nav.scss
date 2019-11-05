@@ -8,18 +8,39 @@
 }
 
 #menu-btn .icon {
-    position: relative;
-    
+    position: relative;    
 }
 .nav-bar {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .nav-bar ul {
     display: none;
 }
 
 .show header nav ul {
     display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
 }
+header nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+ /*utility classes - hiding the word menu*/
+ .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
