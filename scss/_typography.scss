@@ -4,8 +4,24 @@
 h1 {
     font-family: $header-font;
     font-size: 50px;
+    letter-spacing: 0.07em;
+    text-align: center;
+    color: $text-color;
+    text-transform: lowercase;
 }
 
-p {
-    font-family: $body-font
+h2, h3 {
+    font-family: $body-font;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+    line-height: 0.8em;
 }
+
+
+p, address, table {
+    font-family: $body-font;
+    font-size: 0.9em;
+    letter-spacing: 0.04em;
+}
+

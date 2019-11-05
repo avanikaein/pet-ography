@@ -6,18 +6,9 @@
     background-color: #fff5d5;
   }
 
-// Header Styles (both h1 and h3)
-h1 {
+// Center justify banner content
+.banner-home {
   text-align: center;
-  color: $text-color;
-  line-height: 1em;
-}
-
-h3 {
-    font-family: $body-font;
-    line-height: 0em;
-    text-align: center;
-    color: $text-color;
 }
 
 // Button Styles
@@ -30,5 +21,6 @@ h3 {
 .banner-home button {
   border: none;
   background-color: #fff5d5;
-  border-radius: 5px;
+  border-radius: 35%;
+  width: 100px;
 }
