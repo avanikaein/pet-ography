@@ -2,8 +2,7 @@
 .banner-home mark {
     display: inline-block;
     line-height: 0em;
-    padding-top: 0.1em;
-    padding-bottom: 0.4em;
+    padding: 0.1em 0.3em 0.4em 0.3em;
     background-color: #fff5d5;
   }
 
@@ -11,6 +10,7 @@
 h1 {
   text-align: center;
   color: #0a1e22;
+  line-height: 1em;
 }
 
 h3 {
@@ -18,4 +18,6 @@ h3 {
     line-height: 0em;
     text-align: center;
     color: #0a1e22;
-  }
+}
+
+// Button Styles
