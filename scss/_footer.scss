@@ -1,0 +1,24 @@
+footer {
+    font-family: $body-font;
+    color: $text-color;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+.SM-icons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.6em;
+    padding: 0;
+
+}
+
+
+.fa-envelope, .fa-instagram, .fa-facebook-square {
+   color: $text-color;
+   padding: 15px;
+}
