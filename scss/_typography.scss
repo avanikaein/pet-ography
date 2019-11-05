@@ -5,6 +5,9 @@ h1 {
     font-family: $header-font;
     font-size: 50px;
     letter-spacing: 0.07em;
+    text-align: center;
+    color: $text-color;
+    text-transform: lowercase;
 }
 
 h2, h3 {
@@ -12,6 +15,7 @@ h2, h3 {
     font-size: 0.9em;
     letter-spacing: 0.04em;
     text-transform: lowercase;
+    line-height: 0.8em;
 }
 
 
