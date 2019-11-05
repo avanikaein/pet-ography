@@ -1,0 +1,21 @@
+// Highlighter style for header
+.banner-home mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-top: 0.1em;
+    padding-bottom: 0.4em;
+    background-color: #fff5d5;
+  }
+
+// Header Styles (both h1 and h3)
+h1 {
+  text-align: center;
+  color: #0a1e22;
+}
+
+h3 {
+    font-family: $body-font;
+    line-height: 0em;
+    text-align: center;
+    color: #0a1e22;
+  }
