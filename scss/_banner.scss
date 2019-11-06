@@ -1,6 +1,9 @@
 // Center justify banner content
 .banner-home, .banner-services, .banner-portfolio, .banner-contact {
   text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  height: 95%;
 }
 
 // Button Styles
@@ -22,7 +25,22 @@
 }
 
 // Banner Image Style
+header {
+  position: relative;
+ 
+
+  &img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    height: auto;
+  }
+}
 .header-home {
   background-color: $color-home;
-  height: 90vh;
+}
+
+.header-services {
+  background-color: $color-services;
 }
