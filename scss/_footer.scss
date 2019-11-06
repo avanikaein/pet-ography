@@ -4,12 +4,21 @@ footer {
     border-top: 1px solid black;
     text-align: center;
     font-size: 1em;
+    padding-bottom: 15px;
 }
 
-footer .home{
+.home{
     background-color: $color-home;
 }
-
+.contact {
+    background-color: $color-contact;
+}
+.portfolio {
+    background-color:$color-portfolio;
+}
+.services {
+    background-color:$color-services;
+}
 .SM-icons {
     display: flex;
     justify-content: space-evenly;
@@ -23,5 +32,4 @@ footer .home{
 
 .fa-envelope, .fa-instagram, .fa-facebook-square {
    color: $text-color;
-   padding: 15px;
 }
