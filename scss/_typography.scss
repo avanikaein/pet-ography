@@ -3,17 +3,21 @@
 
 h1 {
     font-family: $header-font;
-    font-size: 3.125em;
+    font-size: 2.7em;
     letter-spacing: 0.07em;
     text-align: center;
     color: $text-color;
+    font-weight: lighter;
     text-transform: lowercase;
 }
 
 h2 {
     font-family: $header-font;
-    font-size: 2em;
+    font-size: 1.1em;
+    font-weight: lighter;
     text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 0.04em;
 }
 
 h3 {
@@ -24,12 +28,16 @@ h3 {
     line-height: 0.8em;
 }
 
-p, address, table {
+p, address, table, form {
     font-family: $body-font;
     font-size: 0.9em;
     letter-spacing: 0.04em;
 }
 
+nav {
+    font-weight: lighter;
+    font-size: 0.9em;
+}
 
 // Custom Web Site Heading Styles
 .hh {
