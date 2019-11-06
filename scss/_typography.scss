@@ -3,9 +3,43 @@
 
 h1 {
     font-family: $header-font;
-    font-size: 50px;
+    font-size: 3.125em;
+}
+
+h2 {
+    font-family: $header-font;
+    font-size: 2em;
+    text-align: center;
 }
 
 p {
-    font-family: $body-font
+    font-family: $body-font;
+}
+
+
+// Custom Web Site Heading Styles
+.hh {
+    
+    span {
+        line-height: 0em;
+        position: relative;
+        display: inline-block;
+        padding: 0.1em 0.3em 0.4em 0.3em;
+    }
+    
+    &.hh-peach span {
+        background-color: #fff5d5;
+    }
+    &.hh-yellow span {
+        background-color: #fcda6e;
+    }
+    &.hh-pink span {
+        background-color: #fbe4f3;
+    }
+    &.hh-orange span {
+        background-color: #f2c075;
+    }
+    &.hh-white span {
+        background-color: white;
+    }
 }
