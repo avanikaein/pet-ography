@@ -6,10 +6,18 @@ footer {
     font-size: 1em;
 }
 
-footer .home{
+.home{
     background-color: $color-home;
 }
-
+.contact {
+    background-color: $color-contact;
+}
+.portfolio {
+    background-color:$color-portfolio;
+}
+.services {
+    background-color:$color-services;
+}
 .SM-icons {
     display: flex;
     justify-content: space-evenly;
