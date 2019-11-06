@@ -4,6 +4,7 @@ footer {
     border-top: 1px solid black;
     text-align: center;
     font-size: 1em;
+    padding-bottom: 15px;
 }
 
 .home{
@@ -31,5 +32,4 @@ footer {
 
 .fa-envelope, .fa-instagram, .fa-facebook-square {
    color: $text-color;
-   padding: 15px;
 }
