@@ -25,9 +25,8 @@
 }
 
 // Banner Image Style
-header {
+.banner-home {
   position: relative;
- 
 
   &img {
     position: absolute;
@@ -43,4 +42,12 @@ header {
 
 .header-services {
   background-color: $color-services;
+}
+
+.header-portfolio {
+  background-color: $color-portfolio;
+}
+
+.header-contact {
+  background-color: $color-contact;
 }
