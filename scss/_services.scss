@@ -1,12 +1,28 @@
-table {
-    margin: 40px 0;
+#rates {
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+    font-family: $body-font;
+    padding-bottom: 10px;
 }
 
-th {
+ul {
+padding-bottom: 25px;
+padding-left: 0;
+}
+
+.list-title {
     text-transform: uppercase;
     text-align: center;
+    font-weight: 600;
 }
-
-tr {
-    height: 30px;
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.item li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
