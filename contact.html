@@ -15,7 +15,7 @@
 
         <header class="header-contact">
             <div class="nav-bar">
-                <img src="#0" alt="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
                 <button id="menu-btn">
                     <span class="icon"> &#9776; </span>
                     <span class="text sr-only">Menu</span>
@@ -56,9 +56,9 @@
                     <div class="form-group">
                         <label for="service">Select a service</label>
                         <select name="service" id="service">
-                            <option value="null"></option>
-                            <option value="half-hour">30-minute session</option>
-                            <option value="full-hour">60-minute session</option>
+                            <option class="null" style="display:none" value="null">Please select a service...</option>
+                            <option class="half-hour" value="half-hour">30-minute session</option>
+                            <option class="full-hour" value="full-hour">60-minute session</option>
                         </select>
                     </div>
 
@@ -101,7 +101,7 @@
         </footer>
     </div>
     <!--end of wrapper-->
-    <script src="scripts/script.js"></script>
+    <script src="Javascript/script.js"></script>
 </body>
 
 </html>
