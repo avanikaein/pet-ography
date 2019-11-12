@@ -20,13 +20,15 @@ h2 {
     letter-spacing: 0.04em;
 }
 
-h3 {
+ h3 {
     font-family: $body-font;
     font-size: 0.9em;
     letter-spacing: 0.04em;
     text-transform: lowercase;
     line-height: 0.8em;
 }
+
+
 
 p, address, table, form {
     font-family: $body-font;

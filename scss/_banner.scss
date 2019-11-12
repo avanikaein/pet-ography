@@ -4,7 +4,19 @@
   padding: 0;
   margin-bottom: 0;
   height: 95%;
+  display: flex;
+  flex-direction: column;
 }
+
+.page-titles {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  }
+
+  .btn {
+    margin-top: 90px;
+  }
 
 // Button Styles
 .banner-home button a {
