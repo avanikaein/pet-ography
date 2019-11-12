@@ -32,7 +32,6 @@
     border: 2px solid $color-home;
 }
 
-
 .form textarea {
     width: 100%;
     height: 80px;
@@ -47,4 +46,16 @@
     background-color: $color-home;
     font-weight: 600;
     line-height: 2;
+}
+
+.form {
+    margin: 0 auto;
+    width: auto;
+}
+
+@media (min-width: 450px) {
+    .form {
+        margin: 0 auto;
+        width: auto;
+    }
 }
