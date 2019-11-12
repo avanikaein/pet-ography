@@ -22,7 +22,7 @@
     <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="favicon/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
+    <meta name="application-name" content="&nbsp;" />
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png" />
     <meta name="msapplication-square70x70logo" content="favicon/mstile-70x70.png" />
@@ -55,10 +55,12 @@
                 <div class="page-titles">
                     <h1 class="hh hh-peach"><span>Pet-ography</span></h1>
                     <h3>Professional dog portraits</h3>
-                </div> <!--end of page titles-->
+                </div>
+                <!--end of page titles-->
                 <div class="btn">
-                <button class="btn-book-now"><a href="#0">book now</a></button>
-            </div><!--end of btn-->
+                    <button class="btn-book-now"><a href="#0">book now</a></button>
+                </div>
+                <!--end of btn-->
             </div>
             <!--end of banner-home-->
         </header>
@@ -78,29 +80,39 @@
             </section>
             <hr>
             <section id="testimonials">
-                <h2 class="hh hh-yellow"><span>Testimonials</span></h2>
-                <div class="test-01">
-                    <p>"Ava was amazing! Scheduling was easy for the photography session and delivery. Great
-                        photographs, exactly as promised!"</p>
-                    <p>Nancy K. & Tim A.</p>
+                <h2 class="hh hh-yellow">
+                    <span>Testimonials</span>
+                </h2>
+                <div class="gallery cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="4000"
+                    data-cycle-slides=".test">
+                    <div class="test test-01">
+                        <p>"Ava was amazing! Scheduling was easy for the photography session and delivery. Great
+                            photographs, exactly as promised!"</p>
+                        <p>Nancy K. & Tim A.</p>
+                    </div>
+                    <div class="test test-02">
+                        <p>"Working with Brylla was one of the most pleasant experiences of planning our furry child's
+                            birthday. She has to much personality and is an amazing photographer. Thank you Brylla for
+                            the
+                            lovely memories."</p>
+                        <p>Jason E.</p>
+                    </div>
+                    <div class="test test-03">
+                        <p>"Tiffany is fantastic at what she does! We could not be happier with the way our family
+                            photos
+                            turned out. She really knows how to capture what you're looking for!"</p>
+                        <p>Grace L.</p>
+                    </div>
+                    <div class="test test-04">
+                        <p>"The team runs absolutely one of the best photography companies in the world! True talent,
+                            affordable, and stress-free services. I highly recommend to anyone looking for a pet
+                            photographer."</p>
+                        <p>Michael W.</p>
+                    </div>
+                    <!--end of test-04-->
                 </div>
-                <div class="test-02">
-                    <p>"Working with Brylla was one of the most pleasant experiences of planning our furry child's
-                        birthday. She has to much personality and is an amazing photographer. Thank you Brylla for the
-                        lovely memories."</p>
-                    <p>Jason E.</p>
-                </div>
-                <div class="test-03">
-                    <p>"Tiffany is fantastic at what she does! We could not be happier with the way our family photos
-                        turned out. She really knows how to capture what you're looking for!"</p>
-                    <p>Grace L.</p>
-                </div>
-                <div class="test-04">
-                    <p>"The team runs absolutely one of the best photography companies in the world! True talent,
-                        affordable, and stress-free services. I highly recommend to anyone looking for a pet
-                        photographer."</p>
-                    <p>Michael W.</p>
-                </div>
+                <!--end of carousel-->
+
             </section>
         </main>
         <footer class="home">
@@ -119,6 +131,8 @@
         </footer>
     </div>
     <!--end of wrapper-->
+    <script src="javascript/jquery-3.4.1.min.js"></script>
+    <script src="javascript/jquery.cycle2.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
