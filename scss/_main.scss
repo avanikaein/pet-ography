@@ -4,5 +4,12 @@ main  {
 }
 
 #link {
+    text-decoration: none;
+    color: #ca9901;
     
+}
+
+#link:hover, #link:focus {
+    color: $text-color;
+    font-style: italic;
 }
