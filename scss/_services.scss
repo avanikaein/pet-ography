@@ -1,7 +1,12 @@
-#rates th{
-    text-transform: uppercase;
-}
-
 table {
     margin: 40px 0;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+tr {
+    height: 30px;
 }
