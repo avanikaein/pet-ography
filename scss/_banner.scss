@@ -4,7 +4,19 @@
   padding: 0;
   margin-bottom: 0;
   height: 95%;
+  display: flex;
+  flex-direction: column;
 }
+
+.page-titles {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  }
+
+  .btn {
+    margin-top: 90px;
+  }
 
 // Button Styles
 .banner-home button a {
@@ -24,18 +36,6 @@
   padding: 1em 6.3em 1em 6.3em;
 }
 
-// Banner Image Style
-// .banner-home {
-//   position: relative;
-
-//   &img {
-//     position: absolute;
-//     bottom: 0;
-//     right: 0;
-//     margin: 0;
-//     height: auto;
-//   }
-// }
 
 .header-home {
   background-color: $color-home;
