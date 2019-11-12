@@ -12,11 +12,16 @@
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
+  line-height: 0;
   }
 
   .btn {
     margin-top: 90px;
   }
+
+  .hh-peach {
+  margin-bottom: 10px;
+}
 
 // Button Styles
 .banner-home button a {
