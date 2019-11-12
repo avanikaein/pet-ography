@@ -41,7 +41,7 @@
   background-color: $color-home;
   background-image: url(../images/banner/pug-yellow.png);
   height: 100vh; 
-  background-size: cover;
+  background-size: 350px 363px;
   background-repeat: no-repeat;
   background-position: bottom right;
   
@@ -49,12 +49,27 @@
 
 .header-services {
   background-color: $color-services;
+  background-image: url(../images/banner/grass-costume-dog.png);
+  height: 100vh; 
+  background-size: 350px 442px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .header-portfolio {
   background-color: $color-portfolio;
+  background-image: url(../images/banner/corgi-orange.png);
+  height: 100vh; 
+  background-size: 350px 486px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .header-contact {
   background-color: $color-contact;
+  background-image: url(../images/banner/black-dog-profile.png);
+  height: 100vh; 
+  background-size: 350px 362px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
