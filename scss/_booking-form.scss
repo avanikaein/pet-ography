@@ -1,3 +1,8 @@
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .form-group {
     display: flex;
     flex-direction: column;
@@ -46,12 +51,9 @@
     background-color: $color-home;
     font-weight: 600;
     line-height: 2;
+    font-size: large;
 }
 
-.form {
-    margin: 0 auto;
-    width: 450px;
-}
 
 @media (min-width: 450px) {
     .form {
