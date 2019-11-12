@@ -25,19 +25,26 @@
 }
 
 // Banner Image Style
-.banner-home {
-  position: relative;
+// .banner-home {
+//   position: relative;
 
-  &img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    height: auto;
-  }
-}
+//   &img {
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+//     margin: 0;
+//     height: auto;
+//   }
+// }
+
 .header-home {
   background-color: $color-home;
+  background-image: url(../images/banner/pug-yellow.png);
+  height: 100vh; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
 }
 
 .header-services {
