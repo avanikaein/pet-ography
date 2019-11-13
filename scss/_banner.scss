@@ -78,3 +78,31 @@
   background-repeat: no-repeat;
   background-position: bottom left;
 }
+
+@media (min-height: 800px){
+ .header-home
+ { background-size: 385px 400px;}
+ .header-services
+ {background-size: 356px 450px;}
+ .header-portfolio {
+   background-size: 331px 460px;
+ }
+ .header-contact {
+   background-size: 450px 390px;
+ }
+}
+
+@media (min-height: 1000px), (min-width: 760px){
+  .header-home {
+    background-size: 626px 650px;
+  }
+  .header-services {
+    background-size: 554px 700px;
+  }
+  .header-portfolio {
+    background-size: 518px 720px;
+  }
+  .header-contact {
+    background-size: 700px 607px;
+  }
+}
