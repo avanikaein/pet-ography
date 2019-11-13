@@ -13,3 +13,17 @@ main  {
     color: $text-color;
     font-style: italic;
 }
+
+@media (min-width: 760px) {
+    main {
+        padding: 20px 100px 60px 100px;
+
+    }
+
+    #rates, .form-group{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+     
+}

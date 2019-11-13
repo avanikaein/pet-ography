@@ -93,6 +93,9 @@
 }
 
 @media (min-height: 1000px), (min-width: 760px){
+  .hh-peach {
+    margin-top: 100px;
+  }
   .header-home {
     background-size: 626px 650px;
   }
@@ -105,4 +108,11 @@
   .header-contact {
     background-size: 700px 607px;
   }
+}
+
+@media (min-height: 1300px) {
+  .hh-peach {
+    margin-top:300px;
+}
+
 }

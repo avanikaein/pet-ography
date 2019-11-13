@@ -24,7 +24,7 @@ header .nav-bar img {
 
 .nav-bar ul {
     display: none;
-    height: 100vh;
+    // height: 25vh;
 }
 
 .nav-bar nav {
@@ -39,6 +39,13 @@ header .nav-bar img {
     margin: 0;
 }
 
+.show .banner-home,
+.show .banner-services,
+.show .banner-portfolio,
+.show .banner-contact {
+    display: none;
+}
+
 header nav a{
     display: block;
     text-align: center;
@@ -47,6 +54,7 @@ header nav a{
     line-height: 1.8em;
     text-transform: lowercase;
     font-family: $body-font;
+    font-size: 1.5em;
 }
 
  /*utility classes - hiding the word menu*/
@@ -60,3 +68,41 @@ header nav a{
     clip: rect(0,0,0,0);
     border: 0;
   }
+
+@media (min-width: 1000px) {
+
+    nav {
+        position: relative;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 15px;
+        
+    }
+
+    .nav-bar ul {
+        display: flex;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        padding-top: 20px;
+       
+    }
+
+    .nav-bar li {
+        flex: 1;
+    }
+
+    .nav-bar a {
+        font-size: 1.5em;
+    }
+
+
+
+    #menu-btn {
+        display: none;
+    }
+}
