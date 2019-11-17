@@ -35,7 +35,7 @@
 <body>
     <div class="wrapper">
 
-        <header class="header-portfolio">
+        <header class="header-portfolio" id="top">
             <div class="nav-bar">
                 <a href="index.html"><img src="images/logo.png" alt="logo"></a>
                 <button id="menu-btn">
@@ -60,6 +60,7 @@
                 <!-- end of page-titles -->
             </div>
             <!--end of banner portfolio-->
+            
         </header>
         <main>
             <h2 class="hh hh-orange"><span>Gallery</span></h2>
@@ -79,6 +80,11 @@
                 <img src="images/gallery/12-pug-wrapped-in-towel.png" alt="Pug Wrapped in Towel">
             </div>
             <!--end of gallery-->
+            <div class="top-link">
+                <a class="gototop" id="gototop" href="#top"><i class="fas fa-arrow-up">
+                        <span>Top</span>
+                    </i></a>
+            </div>
         </main>
         <footer class="portfolio">
             <p>+1 604-788-2161</p>
@@ -96,6 +102,8 @@
         </footer>
     </div>
     <!--end of wrapper-->
+    <script src="javascript/jquery-3.4.1.min.js"></script>
+    <script src="javascript/jquery.cycle2.min.js"></script>
     <script src="javascript/script.js"></script>
 </body>
 

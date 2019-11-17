@@ -1,3 +1,10 @@
+// Back to Top button animation
+$('.gototop').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+});
+
+
 // Show/hide menu //
 
 
@@ -6,7 +13,5 @@ const btn = document.getElementById('menu-btn');
 
 btn.addEventListener ('click', _ => {body.classList.toggle('show') });
 
-//mousedown event
-// remove the focus ring for mouse users, 
-//but keep it for keyboard users
+btn.addEventListener('mousedown', (e)=> {e.preventDefault});
 
