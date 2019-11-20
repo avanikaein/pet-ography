@@ -21,6 +21,9 @@
 
   .hh-peach {
   margin-bottom: 10px;
+  @media (min-height: 800px) and (min-width: 760px){
+    margin-top: 100px;
+  }
 }
 
 // Button Styles
@@ -51,6 +54,12 @@
   @include background-img;
   background-size: 265px 275px;
   background-position: bottom right;
+  @media (min-width: 800px){
+    background-size: 385px 400px;
+  }
+  @media (min-height: 800px) and (min-width: 1160px){
+    background-size: 626px 650px;
+  }
   
 }
 
@@ -60,6 +69,12 @@
   @include background-img;
   background-size: 253px 320px;
   background-position: bottom right;
+  @media (min-width: 800px){
+    background-size: 356px 450px;
+  }
+  @media (min-height: 800px) and (min-width: 1160px){
+    background-size: 554px 700px;
+  }
 }
 
 .header-portfolio {
@@ -68,6 +83,12 @@
   @include background-img;
   background-size: 237px 330px;
   background-position: bottom;
+  @media (min-width: 800px){
+    background-size: 331px 460px;
+  }
+  @media (min-height: 800px) and (min-width: 1160px){
+    background-size: 468px 650px;
+  }
 }
 
 .header-contact {
@@ -76,42 +97,10 @@
   @include background-img;
   background-size: 320px 278px;
   background-position: bottom left;
-}
-
-@media (min-height: 800px){
- .header-home
- { background-size: 385px 400px;}
- .header-services
- {background-size: 356px 450px;}
- .header-portfolio {
-   background-size: 331px 460px;
- }
- .header-contact {
-   background-size: 450px 390px;
- }
-}
-
-@media (min-height: 1000px), (min-width: 760px){
-  .hh-peach {
-    margin-top: 100px;
+  @media (min-width: 800px){
+    background-size: 450px 390px;
   }
-  .header-home {
-    background-size: 626px 650px;
-  }
-  .header-services {
-    background-size: 554px 700px;
-  }
-  .header-portfolio {
-    background-size: 518px 720px;
-  }
-  .header-contact {
+  @media (min-height: 800px) and (min-width: 1160px){
     background-size: 700px 607px;
   }
-}
-
-@media (min-height: 1300px) {
-  .hh-peach {
-    margin-top:300px;
-}
-
 }
