@@ -1,7 +1,18 @@
 main  {
     background-color: #fff5d5;
     padding: $page-padding;
+    @media (min-width: 800px) {
+        padding: 20px 100px 60px 100px;
+        #rates, .form-group{
+            width: 400px;
+            margin: 0 auto;
+        }
+    }
+    @media (min-height: 800px) and (min-width: 1160px){
+        padding: 20px 200px 60px 200px;
+    }
 }
+
 
 #link {
     text-decoration: none;
@@ -13,19 +24,5 @@ main  {
     font-style: italic;
 }
 
-@media (min-width: 760px) {
-    main {
-        padding: 20px 100px 60px 100px;
-    }
 
-    #rates, .form-group{
-        width: 400px;
-        margin: 0 auto;
-    }
-}
 
-@media (min-width: 1200px){
-    main {
-        padding: 20px 200px 60px 200px;
-    }
-}
