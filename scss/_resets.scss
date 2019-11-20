@@ -23,4 +23,15 @@ table {
 // Remove Margins on the body
 body {
     margin: 0;
+    background-image: url(../images/bg-pattern.png);
+    background-repeat: space repeat;
+    background-color: $text-color;
+   
+}
+
+//max-wdith
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    
 }

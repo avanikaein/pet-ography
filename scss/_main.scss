@@ -25,5 +25,10 @@ main  {
         margin: 0 auto;
     }
 
-     
+}
+
+@media (min-width: 1200px){
+    main {
+        padding: 20px 200px 60px 200px;
+    }
 }
