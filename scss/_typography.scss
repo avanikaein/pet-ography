@@ -1,6 +1,3 @@
-// font-family: 'Abril Fatface', cursive;
-// font-family: 'Poppins', sans-serif;
-
 h1 {
     font-family: $header-font;
     font-size: 2.7em;
@@ -27,7 +24,6 @@ h2 {
     @include lowercase;
     line-height: 0.8em;
 }
-
 
 
 p, address, table, form {
