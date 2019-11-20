@@ -1,6 +1,25 @@
 .form {
     margin: 0 auto;
-    width: 100%;
+}
+
+form {
+    @media (min-height: 800px) and (min-width: 1160px){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "personal-input service-input"
+        "comments submit-btn";
+        column-gap: 40px;
+        .personal-input {
+            grid-area: personal-input;
+        }
+        .service-input {
+            grid-area: service-input;
+        }
+        button {
+            grid-area: submit-btn;
+        }
+    }
 }
 
 .form-group {
@@ -10,7 +29,7 @@
 }
 
 .form label {
-    text-transform: lowercase;
+   @include lowercase;
     font-weight: 600;
 }
 
@@ -41,6 +60,7 @@
     width: 100%;
     height: 80px;
     resize: none;
+    grid-area: comments;
 }
 
 .form-label label{
@@ -52,12 +72,13 @@
     font-weight: 600;
     line-height: 2;
     font-size: large;
-}
-
-
-@media (min-width: 450px) {
-    .form {
-        margin: 0 auto;
-        width: auto;
+    @media (min-height: 800px) and (min-width: 1160px){
+        margin-top: 60px;
     }
 }
+@media (min-height: 800px) and (min-width: 1160px) {
+    #main-form {
+        padding-bottom: 0;
+    }
+}
+

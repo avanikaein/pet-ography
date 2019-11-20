@@ -62,10 +62,11 @@
             </div>
             <!--end of banner-contact-->
         </header>
-        <main>
+        <main id="main-form">
             <section class="form">
                 <h2 class="hh hh-white"><span>Book a session</span></h2>
                 <form action="/">
+                    <div class="personal-input">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" name="name" id="name">
@@ -79,7 +80,8 @@
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="example@domain.com">
                     </div>
-
+                </div> <!--end of personal-input-->
+                <div class="service-input">
                     <div class="form-group">
                         <label for="service">Select a service</label>
                         <select name="service" id="service">
@@ -115,6 +117,7 @@
                         <label for="contact-method">Email</label>
                         </div>
                     </div>
+                </div><!--end of service input-->
                     <div class="form-group">
                         <label for="comments">questions?</label>
                         <textarea name="comments" id="comments" cols="60" rows="4"></textarea>
