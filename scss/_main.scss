@@ -5,8 +5,7 @@ main  {
 
 #link {
     text-decoration: none;
-    color: #ca9901;
-    
+    color: #ca9901;  
 }
 
 #link:hover, #link:focus {
@@ -17,14 +16,12 @@ main  {
 @media (min-width: 760px) {
     main {
         padding: 20px 100px 60px 100px;
-
     }
 
     #rates, .form-group{
         width: 400px;
         margin: 0 auto;
     }
-
 }
 
 @media (min-width: 1200px){

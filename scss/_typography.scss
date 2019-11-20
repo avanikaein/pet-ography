@@ -8,7 +8,7 @@ h1 {
     text-align: center;
     color: $text-color;
     font-weight: lighter;
-    text-transform: lowercase;
+    @include lowercase;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
     font-size: 1.5em;
     font-weight: lighter;
     text-align: center;
-    text-transform: lowercase;
+    @include lowercase;
     letter-spacing: 0.04em;
 }
 
@@ -24,7 +24,7 @@ h2 {
     font-family: $body-font;
     font-size: 0.9em;
     letter-spacing: 0.04em;
-    text-transform: lowercase;
+    @include lowercase;
     line-height: 0.8em;
 }
 

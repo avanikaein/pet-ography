@@ -31,6 +31,9 @@
   color: $text-color;
   font-weight: 400;
 }
+.banner-home button a:hover, .banner-home button a:focus, .banner-home button a:active {
+  @include hover;
+}
 
 .banner-home button {
   display:block;
@@ -45,9 +48,8 @@
 .header-home {
   background-color: $color-home;
   background-image: url(../images/banner/pug-yellow.png);
-  height: 100vh; 
+  @include background-img;
   background-size: 265px 275px;
-  background-repeat: no-repeat;
   background-position: bottom right;
   
 }
@@ -55,27 +57,24 @@
 .header-services {
   background-color: $color-services;
   background-image: url(../images/banner/grass-costume-dog.png);
-  height: 100vh; 
+  @include background-img;
   background-size: 253px 320px;
-  background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 .header-portfolio {
   background-color: $color-portfolio;
   background-image: url(../images/banner/corgi-orange.png);
-  height: 100vh; 
+  @include background-img;
   background-size: 237px 330px;
-  background-repeat: no-repeat;
   background-position: bottom;
 }
 
 .header-contact {
   background-color: $color-contact;
   background-image: url(../images/banner/black-dog-profile.png);
-  height: 100vh; 
+  @include background-img;
   background-size: 320px 278px;
-  background-repeat: no-repeat;
   background-position: bottom left;
 }
 

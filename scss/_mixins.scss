@@ -1,0 +1,13 @@
+@mixin hover{
+    font-weight: 600;
+}
+@mixin uppercase {
+    text-transform: uppercase;
+}
+@mixin lowercase {
+    text-transform: lowercase;
+}
+@mixin background-img {
+    background-repeat: no-repeat;
+    height: 100vh;
+}

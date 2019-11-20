@@ -13,7 +13,7 @@ padding-left: 0;
 }
 
 .list-title {
-    text-transform: uppercase;
+    @include uppercase;
     text-align: center;
     font-weight: 600;
 }
