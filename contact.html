@@ -39,12 +39,14 @@
         <header class="header-contact">
             <div class="nav-bar">
                 <a href="index.html"><img src="images/logo.png" alt="logo"></a>
-                <button id="menu-btn">
-                    <span class="icon"> &#9776; </span>
+                <div class="hamburger" id="menu-btn">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
                     <span class="text sr-only">Menu</span>
-                </button>
+                </div>
                 <nav>
-                    <ul>
+                    <ul class="nav-list">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
@@ -67,57 +69,60 @@
                 <h2 class="hh hh-white"><span>Book a session</span></h2>
                 <form action="/">
                     <div class="personal-input">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                placeholder="604-123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email-input" placeholder="example@domain.com">
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="tel" name="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                            placeholder="604-123-4567">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email-input" placeholder="example@domain.com">
-                    </div>
-                </div> <!--end of personal-input-->
-                <div class="service-input">
-                    <div class="form-group">
-                        <label for="service">Select a service</label>
-                        <select name="service" id="service">
-                            <option class="null" style="display:none" value="null">Please select a service...</option>
-                            <option class="half-hour" value="half-hour">30-minute session</option>
-                            <option class="full-hour" value="full-hour">60-minute session</option>
-                        </select>
-                    </div>
+                    <!--end of personal-input-->
+                    <div class="service-input">
+                        <div class="form-group">
+                            <label for="service">Select a service</label>
+                            <select name="service" id="service">
+                                <option class="null" style="display:none" value="null">Please select a service...
+                                </option>
+                                <option class="half-hour" value="half-hour">30-minute session</option>
+                                <option class="full-hour" value="full-hour">60-minute session</option>
+                            </select>
+                        </div>
 
-                    <div class="form-group">
-                        <label>Add-ons</label> <br>
-                        <div class="form-label">
-                            <input type="checkbox" name="add-ons" id="grooming">
-                            <label for="grooming">Grooming</label>
+                        <div class="form-group">
+                            <label>Add-ons</label> <br>
+                            <div class="form-label">
+                                <input type="checkbox" name="add-ons" id="grooming">
+                                <label for="grooming">Grooming</label>
+                            </div>
+                            <div class="form-label">
+                                <input type="checkbox" name="add-ons" id="costumes">
+                                <label for="costumes">Costumes</label>
+                            </div>
                         </div>
-                        <div class="form-label">
-                            <input type="checkbox" name="add-ons" id="costumes">
-                            <label for="costumes">Costumes</label>
+                        <div class="form-group">
+                            <label>Contact me via</label>
+                            <div class="form-label">
+                                <input type="radio" name="contact-method" id="phone">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="form-label">
+                                <input type="radio" name="contact-method" id="sms">
+                                <label for="sms">SMS</label>
+                            </div>
+                            <div class="form-label">
+                                <input type="radio" name="contact-method" id="email">
+                                <label for="email">Email</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label>Contact me via</label>
-                        <div class="form-label">
-                        <input type="radio" name="contact-method" id="phone">
-                        <label for="phone">Phone</label>
-                        </div>
-                        <div class="form-label">
-                        <input type="radio" name="contact-method" id="sms">
-                        <label for="sms">SMS</label>
-                        </div>
-                        <div class="form-label">
-                        <input type="radio" name="contact-method" id="email">
-                        <label for="email">Email</label>
-                        </div>
-                    </div>
-                </div><!--end of service input-->
+                    <!--end of service input-->
                     <div class="form-group">
                         <label for="comments">questions?</label>
                         <textarea name="comments" id="comments" cols="60" rows="4"></textarea>
