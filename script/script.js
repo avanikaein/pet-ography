@@ -7,11 +7,12 @@ $('.gototop').click(function(){
 
 // Show/hide menu //
 
-
-const body = document.body;
-const btn = document.getElementById('menu-btn');
-
-btn.addEventListener ('click', _ => {body.classList.toggle('show') });
-
-btn.addEventListener('mousedown', (e)=> {e.preventDefault});
-
+$(document).ready(function(){
+    $(".hamburger").click(function(){
+      $(this).toggleClass("show");
+      $(".nav-list").toggleClass("show");
+      $("body").toggleClass("show");
+    });
+  });
+  btn.addEventListener('mousedown', (e)=> {e.preventDefault});
+  
