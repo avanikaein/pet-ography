@@ -45,7 +45,7 @@ header .nav-bar img {
     display: none;
 }
 
-header nav a{
+header nav a {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -55,6 +55,11 @@ header nav a{
     font-family: $body-font;
     font-size: 1.5em;
 }
+
+header nav ul {
+    list-style: none;
+}
+
 a:hover, a:active, a:focus {  
     @include hover;
    }
