@@ -20,15 +20,14 @@ header .nav-bar img {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 15px;
+    ul {
+        display: none;
+    }
+    nav {
+        width: 100%;
+    }
 }
 
-.nav-bar ul {
-    display: none;
-}
-
-.nav-bar nav {
-    width: 100%;
-}
 
 header nav ul {
     list-style: none;
