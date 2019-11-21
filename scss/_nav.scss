@@ -20,16 +20,20 @@ header .nav-bar img {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 15px;
+    ul {
+        display: none;
+    }
+    nav {
+        width: 100%;
+    }
 }
 
-.nav-bar ul {
-    display: none;
-}
 
-.nav-bar nav {
-    width: 100%;
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
 
 .show header nav ul {
     display: block;
@@ -99,6 +103,7 @@ a:hover, a:active, a:focus {
     }
 
     .nav-bar li {
+     
         flex: 1;
         line-height: 10px;
     }
